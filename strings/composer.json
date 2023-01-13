@@ -1,0 +1,23 @@
+{
+  "name": "antoniosam/utilstring",
+  "description": "PHP library Functions String  .",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio Samano",
+      "email": "antoniost.developer@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Ast\\UtilString\\": "src"
+    }
+  }
+}
+
+

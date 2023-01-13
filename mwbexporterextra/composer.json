@@ -1,0 +1,21 @@
+{
+  "name" : "antoniosam/mwbexporterextra",
+  "type" : "library",
+  "description" : "MySQL Workbench Extra Custom Schema Exporter for Doctrine 2",
+  "minimum-stability": "dev",
+  "license" : "MIT",
+  "authors" : [{
+    "name": "Antonio Samano",
+    "email": "antoniost.developer@gmail.com"
+  }],
+
+  "require" : {
+    "php" : ">=5.4.0",
+    "mysql-workbench-schema-exporter/doctrine2-exporter": "3.0.1"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Ast\\MwbExporterExtra\\" : ""
+    }
+  }
+}

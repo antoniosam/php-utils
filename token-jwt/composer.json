@@ -1,0 +1,24 @@
+{
+  "name": "antoniosam/tokenjwt",
+  "description": "PHP library Generate Token JWT(Firebase)",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio Samano",
+      "email": "antoniost.developer@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9",
+    "firebase/php-jwt": "^5.0"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Ast\\TokenJwt\\": "src"
+    }
+  }
+}
+
+
